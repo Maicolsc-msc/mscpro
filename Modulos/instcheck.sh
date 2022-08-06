@@ -16,9 +16,9 @@ pip3 install flask > /dev/null 2>&1
 rm /bin/initcheck > /dev/null 2>&1
 sleep 5
 cd /bin || exit
-wget https://github.com/Maicolsc-msc/mscpro/raw/main/Modulos/chuser > /dev/null 2>&1
-wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/userscheck > /dev/null 2>&1
-chmod 777 initcheck > /dev/null 2>&1
+wget https://raw.githubusercontent.com/Maicolsc-msc/mscpro/main/Modulos/chuser > /dev/null 2>&1
+wget https://raw.githubusercontent.com/Maicolsc-msc/mscpro/main/Modulos/userscheck > /dev/null 2>&1
+chmod 777 chuser > /dev/null 2>&1
 chmod 777 userscheck > /dev/null 2>&1
 clear
 mkdir /etc/rec > /dev/null 2>&1
